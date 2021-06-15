@@ -48,16 +48,37 @@ async function getBackgroundImg(){
     hour = dt.slice(11, 13);
 
     // add conditions to change the background images from sunrise to sunset
-    if(hour >=04 && hour <= 06) {
+    if(hour >=01 && hour <= 02) {
         bg = "sunrise1.png";
     }
-    else if(hour >=06 && hour <= 08) {
+    else if(hour >= 03 && hour <= 04) {
         bg = "sunrise2.png";
     }
-    else if(hour >=23 && hour == 00) {
+    else if(hour >= 05 && hour <= 06) {
+        bg = "sunrise3.png";
+    }
+    else if(hour >= 07 && hour <= 08) {
+        bg = "sunrise4.png";
+    }
+    else if(hour >= 09 && hour <= 10) {
+        bg = "sunrise5.png";
+    }
+    else if(hour >= 11 && hour <= 12) {
+        bg = "sunrise6.png";
+    }
+    else if(hour >= 13 && hour <= 14) {
+        bg = "sunset7.png";
+    }
+    else if(hour >= 15 && hour <= 16) {
+        bg = "sunset8.png";
+    }
+    else if(hour >= 17 && hour <= 18) {
+        bg = "sunset9.png";
+    }
+    else if(hour >= 19 && hour <= 20) {
         bg = "sunset10.png";
     }
-    else if(hour ==0 && hour <= 03) {
+    else if(hour >= 21 && hour <= 22) {
         bg = "sunset11.png";
     }
     else {
